@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://conmalaletrafic.github.io/</loc>
     <lastmod>2022-05-04T15:34:02+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/p1_mascaras_y_sombras/</loc>
+    <loc>https://conmalaletrafic.github.io/posts/p1_mascaras_y_sombras/</loc>
     <lastmod>2022-05-04T15:34:02+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://conmalaletrafic.github.io/posts/</loc>
     <lastmod>2022-05-04T15:34:02+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://conmalaletrafic.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://conmalaletrafic.github.io/tags/</loc>
   </url>
 </urlset>
