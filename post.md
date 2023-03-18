@@ -11,11 +11,12 @@ permalink: /Post/
 
 <div class="post-preview-container">
   <article>
+  <a  class="clicable" href="{{ post.url }}">
   <div class="post-preview-title">
     <h2>
-      <a href="{{ post.url }}">
+      <!-- <a href="{{ post.url }}"> -->
         {{ post.title }}
-      </a>
+      <!-- </a> -->
     </h2>
     </div>
     <div class="post-preview-date">
@@ -23,5 +24,7 @@ permalink: /Post/
     <div class="post-preview-excerpt">
     {{ post.excerpt }}...
     </div>
+      </a>
+
   </article></div>
 {% endfor %}

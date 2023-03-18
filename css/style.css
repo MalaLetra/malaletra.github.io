@@ -88,7 +88,11 @@ figure.highlight{
     border: 1px solid var(--md-char-color);
     padding: 1rem;
 }
-
+a.clicable,a.clicable:visited, a.clicable:active,a.clicable:link{
+  color: inherit;
+  text-decoration: inherit;
+  /* cursor: pointer; */
+}
 
 button.theme-toggle {
     z-index: 10;
@@ -106,7 +110,6 @@ button.theme-toggle {
     border: 1px solid lightgray;
     border-radius: 50%;
     /*background-color:trasparent;*/
-    color: var(--light-theme-fg-lvl1);
 
   }
   
@@ -119,6 +122,8 @@ button.theme-toggle::before {
     left: 50%;
 position: absolute;
     transform: translate(-50%, -50%);
+    color: var(--light-theme-fg-lvl1);
+
   
   }
   
@@ -131,5 +136,23 @@ position: absolute;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    color: var(--dark-theme-fg-lvl1);
+
   
+  }
+  button.cool-btn{
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid var(--md-char-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    align-items: center;
+    background-color: var(--light-theme-bg-lvl1);
+  }
+  .darkTheme button.cool-btn{
+    border: 1px solid var(--md-char-color);
+    background-color: var(--dark-theme-bg-lvl1);
+    color: var(--dark-theme-fg-lvl1);
   }
