@@ -4,7 +4,7 @@
 
 layout: default
 title: Post
-permalink: /Post/
+permalink: /post/
 ---
 
 {% for post in site.posts %}
