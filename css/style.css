@@ -25,6 +25,8 @@
     --font-general: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
+      --light-theme-bg-lvl1: white;
+    --light-theme-fg-lvl1: black;
     --dark-theme-bg-lvl1: black;
     --dark-theme-fg-lvl1: white;
   
@@ -34,9 +36,16 @@ body{
   margin: auto;
 }
 nav {
+    position: sticky;
+  top: 0;
 padding: 0.7rem;
 /* width: 100%; */
 border-bottom: 1px solid var(--md-char-color) ;
+background-color: var(--light-theme-bg-lvl1);
+}
+.darkTheme nav{
+background-color: var(--dark-theme-bg-lvl1);
+
 }
 nav a {
     border: 1px solid var(--md-char-color);
@@ -54,6 +63,7 @@ nav a:hover {
     color: var(--primary-btn-text-color);
 }
 footer{
+    padding: 1rem;
     margin: auto;
     width: fit-content;
     text-align: center;
@@ -62,12 +72,14 @@ div.post-preview-container{
 border: 1px solid var(--md-char-color);
 border-radius: 5px;
 padding: 1rem;
-margin: 0.5rem;
+/* margin: 0.5rem; */
 }
 .post-preview-title h2{
     margin: 0;
 }
-
+section{
+    padding: 1rem;
+}
 .post-preview-date { color: var(--md-char-color); font-size: 0.75rem;}
 .post-preview-excerpt {font-size: 1rem;}
 .post-date-author{ color: var(--md-char-color); font-size: 0.75rem;}
@@ -76,3 +88,46 @@ figure.highlight{
     border: 1px solid var(--md-char-color);
     padding: 1rem;
 }
+
+
+button.theme-toggle {
+    z-index: 10;
+    position: fixed;
+    top: 0.25rem;
+    right: 1rem;
+    margin: auto;
+    width: 2rem;
+    border: none;
+    height: 2rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1rem;
+    background-color: rgba(237, 237, 237, 0.4);
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    /*background-color:trasparent;*/
+  }
+  
+
+button.theme-toggle::before {
+    content: "☀"; /*🌕☀🌞🌟⭐*/
+    font-family: 'Noto Emoji', sans-serif;
+    font-size: 1.70rem;
+    top: 50%;
+    left: 50%;
+position: absolute;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  button.darkTheme::before {
+
+    content: "🌙"; /*🌚🌛🌜🌘🌑🌒🌙*/
+    font-family: 'Noto Emoji', sans-serif;
+    font-size: 1.70rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  
+  }

@@ -988,7 +988,7 @@ body img:first-of-type:active {
 .darkTheme {
   background-color: var(--dark-theme-bg-lvl1);
   color: var(--dark-theme-fg-lvl1);
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   font-weight: 200;
 
 }
@@ -1021,45 +1021,7 @@ body img:first-of-type:active {
 
 }
 
-button.theme-toggle {
-  z-index: 10;
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  margin: auto;
-  width: 4rem;
-  border: none;
-  height: 4rem;
-  padding: 0;
-  margin: 0;
-  line-height: 1rem;
-  background-color: rgba(237, 237, 237, 0.4);
-  border: 1px solid lightgray;
-  border-radius: 50%;
-  /*background-color:trasparent;*/
-}
 
-button.theme-toggle::before {
-  content: "☀️";
-  font-family: 'Noto Emoji', sans-serif;
-  font-size: 3rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-button.darkTheme::before {
-  content: "🌑";
-  font-family: 'Noto Emoji', sans-serif;
-  font-size: 3rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
 
 .darkTheme a button {
   font-family: 'Noto Emoji', sans-serif;
