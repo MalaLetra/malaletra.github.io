@@ -28,8 +28,4 @@ Pero són lo que són, práctica y pruebas.
 
 Si eso no te echa para atrás y te puede la curiosidad, hecha un vistazo al apartado de [post](/post) y divierteté.
 
-Además, puedes guardar esta página como una "aplicación" tocando [instalar](#install).
-
-<button id="install" class="cool-btn" onclick="install()">Instalar</button>
-
 Gracias.
