@@ -156,3 +156,11 @@ position: absolute;
     background-color: var(--dark-theme-bg-lvl1);
     color: var(--dark-theme-fg-lvl1);
   }
+  img.qr{
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  
+  .darkTheme img.qr{
+    filter: invert();
+  }

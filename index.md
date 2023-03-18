@@ -28,4 +28,10 @@ Pero són lo que són, práctica y pruebas.
 
 Si eso no te echa para atrás y te puede la curiosidad, hecha un vistazo al apartado de [post](/post) y divierteté.
 
+<br/>
 Gracias.
+
+<br/>
+PD: Puedes compartir este enlace utilizando este codigo QR.
+
+<img class="qr" src="/qr.png"  alt="codigo qr de la web" loading="lazy"/>

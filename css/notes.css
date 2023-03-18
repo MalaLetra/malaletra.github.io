@@ -820,17 +820,6 @@ small img {
     content: "";
   }
 
-  body img:first-of-type {
-    margin-top: -75px;
-    height: 178mm;
-    /* 210 -15 -15*/
-    width: 126mm;
-    /* 148 - 10 - 10 */
-    /* margin: -15mm -10mm -15mm -10mm !important; */
-    counter-reset: pagenum;
-
-  }
-
 
 
 
@@ -860,32 +849,6 @@ del:hover {
 }
 
 
-img:hover {
-  cursor: zoom-in;
-
-}
-
-img:active {
-  max-width: 150%;
-  animation-name: BiggerInside;
-  animation-fill-mode: forwards;
-  animation-duration: 0.5s;
-}
-
-@keyframes BiggerInside {
-  0% {
-    margin-left: 0;
-    width: auto;
-    height: auto;
-    width: 100%;
-
-  }
-
-  100% {
-    margin-left: -25%;
-    width: 150%;
-  }
-}
 
 strong:hover {
   /* animation: pulse-black 3s infinite; */
@@ -944,34 +907,11 @@ em:hover {
   }
 }
 
-img {
-  max-width: 50%;
-}
 
 
 
-body img:first-of-type {
-  max-width: 100%;
-  /* margin-left: -20px;
-  margin-right: -20px; */
-  /* max-width: calc(100% + 41px); */
-  text-indent: 0;
-  page-break-after: always;
-  page-break-inside: avoid;
-  width: 100%;
-  /* margin-top: -75px; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-image: url('/cover_book_min.jpeg'); */
-  /* background-color: #D3C5BC; */
 
 
-}
-
-
-body img:first-of-type:active {
-  animation: none;
-}
 
 /* IU STUFF*/
 .file-node-children {
