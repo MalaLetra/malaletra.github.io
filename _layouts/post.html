@@ -1,0 +1,14 @@
+---
+layout: default
+author: MalaLetra
+---
+
+<div class="post-date-author">
+  {{ page.date | date: "%Y-%m-%d" }} - Escrito por: MalaLetra - {{content |
+  number_of_words | divided_by:180 }} mins
+</div>
+<!-- <div class="post-date-author">
+  {{content | number_of_words | divided_by:180 }} mins
+</div> -->
+<br />
+{{ content }}

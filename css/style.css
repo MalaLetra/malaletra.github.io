@@ -1,0 +1,78 @@
+:root {
+    --md-char-color: #c7c5c5;
+    /*change color of meta characetrs like `*` in markdown */
+    --meta-content-color: #5b808d;
+    /*change color of meta contents like image text or link address in markdown */
+  
+    --primary-color: #428bca;
+    /* color of primary buttons */
+    --primary-btn-border-color: #285e8e;
+    --primary-btn-text-color: #fff;
+  
+    --window-border: 1px solid #eee;
+    /*border for sidebar, etc*/
+  
+    --active-file-bg-color: var(--light-details);
+    /*background color if list item in file tree or file list*/
+    --active-file-text-color: var(--text-color);
+    --active-file-border-color: #777;
+  
+    --side-bar-bg-color: var(--bg-color);
+    /*change background of sidebar*/
+    --item-hover-bg-color: rgba(229, 229, 229, 0.59);
+    /*background of control items when hover, like menu in sidebar*/
+    --item-hover-text-color: inherit;
+    --font-general: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    --dark-theme-bg-lvl1: black;
+    --dark-theme-fg-lvl1: white;
+  
+  }
+body{
+    max-width: clamp(300px, 100%, 72ch);
+  margin: auto;
+}
+nav {
+padding: 0.7rem;
+/* width: 100%; */
+border-bottom: 1px solid var(--md-char-color) ;
+}
+nav a {
+    border: 1px solid var(--md-char-color);
+border-style: none solid none none;
+
+    padding: 0.15rem 0.4rem;
+    text-decoration: none;
+    margin: 0rem;
+}
+nav a:hover {
+    border: 1px solid var(--primary-color);
+    border-style: none solid none none;
+
+    background-color: var(--primary-color);
+    color: var(--primary-btn-text-color);
+}
+footer{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+div.post-preview-container{
+border: 1px solid var(--md-char-color);
+border-radius: 5px;
+padding: 1rem;
+margin: 0.5rem;
+}
+.post-preview-title h2{
+    margin: 0;
+}
+
+.post-preview-date { color: var(--md-char-color); font-size: 0.75rem;}
+.post-preview-excerpt {font-size: 1rem;}
+.post-date-author{ color: var(--md-char-color); font-size: 0.75rem;}
+
+figure.highlight{
+    border: 1px solid var(--md-char-color);
+    padding: 1rem;
+}
