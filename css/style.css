@@ -1,166 +1,186 @@
 :root {
-    --md-char-color: #c7c5c5;
-    /*change color of meta characetrs like `*` in markdown */
-    --meta-content-color: #5b808d;
-    /*change color of meta contents like image text or link address in markdown */
-  
-    --primary-color: #428bca;
-    /* color of primary buttons */
-    --primary-btn-border-color: #285e8e;
-    --primary-btn-text-color: #fff;
-  
-    --window-border: 1px solid #eee;
-    /*border for sidebar, etc*/
-  
-    --active-file-bg-color: var(--light-details);
-    /*background color if list item in file tree or file list*/
-    --active-file-text-color: var(--text-color);
-    --active-file-border-color: #777;
-  
-    --side-bar-bg-color: var(--bg-color);
-    /*change background of sidebar*/
-    --item-hover-bg-color: rgba(229, 229, 229, 0.59);
-    /*background of control items when hover, like menu in sidebar*/
-    --item-hover-text-color: inherit;
-    --font-general: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol";
-      --light-theme-bg-lvl1: white;
-    --light-theme-fg-lvl1: black;
-    --dark-theme-bg-lvl1: black;
-    --dark-theme-fg-lvl1: white;
-  
-  }
-body{
-    max-width: clamp(300px, 100%, 72ch);
+  --md-char-color: #c7c5c5;
+  /*change color of meta characetrs like `*` in markdown */
+  --meta-content-color: #5b808d;
+  /*change color of meta contents like image text or link address in markdown */
+
+  --primary-color: #428bca;
+  /* color of primary buttons */
+  --primary-btn-border-color: #285e8e;
+  --primary-btn-text-color: #fff;
+
+  --window-border: 1px solid #eee;
+  /*border for sidebar, etc*/
+
+  --active-file-bg-color: var(--light-details);
+  /*background color if list item in file tree or file list*/
+  --active-file-text-color: var(--text-color);
+  --active-file-border-color: #777;
+
+  --side-bar-bg-color: var(--bg-color);
+  /*change background of sidebar*/
+  --item-hover-bg-color: rgba(229, 229, 229, 0.59);
+  /*background of control items when hover, like menu in sidebar*/
+  --item-hover-text-color: inherit;
+  --font-general: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --light-theme-bg-lvl1: white;
+  --light-theme-fg-lvl1: black;
+  --dark-theme-bg-lvl1: black;
+  --dark-theme-fg-lvl1: white;
+}
+body {
+  max-width: clamp(300px, 100%, 72ch);
   margin: auto;
 }
 nav {
-    position: sticky;
-  top: 0;
-padding: 0.7rem;
-/* width: 100%; */
-border-bottom: 1px solid var(--md-char-color) ;
-background-color: var(--light-theme-bg-lvl1);
-}
-.darkTheme nav{
-background-color: var(--dark-theme-bg-lvl1);
-
+  padding: 0.7rem;
+  /* width: 100%; */
 }
 nav a {
-    border: 1px solid var(--md-char-color);
-border-style: none solid none none;
+  border: 1px solid var(--md-char-color);
 
-    padding: 0.15rem 0.4rem;
-    text-decoration: none;
-    margin: 0rem;
+  padding: 0.15rem 0.4rem;
+  text-decoration: none;
+  margin: 0rem;
 }
 nav a:hover {
-    border: 1px solid var(--primary-color);
-    border-style: none solid none none;
+  border: 1px solid var(--primary-color);
+  border-style: none solid none none;
 
-    background-color: var(--primary-color);
-    color: var(--primary-btn-text-color);
+  background-color: var(--primary-color);
+  color: var(--primary-btn-text-color);
 }
-footer{
-    padding: 1rem;
-    margin: auto;
-    width: fit-content;
-    text-align: center;
+footer {
+  padding: 1rem;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
 }
-div.post-preview-container{
-border: 1px solid var(--md-char-color);
-border-radius: 5px;
-padding: 1rem;
-/* margin: 0.5rem; */
+div.post-preview-container {
+  border: 1px solid var(--md-char-color);
+  border-radius: 5px;
+  padding: 1rem;
+  /* margin: 0.5rem; */
+  margin: 1rem auto;
 }
-.post-preview-title h2{
-    margin: 0;
+.post-preview-title h2 {
+  margin: 0;
 }
-section{
-    padding: 1rem;
+section {
+  padding: 1rem;
 }
-.post-preview-date { color: var(--md-char-color); font-size: 0.75rem;}
-.post-preview-excerpt {font-size: 1rem;}
-.post-date-author{ color: var(--md-char-color); font-size: 0.75rem;}
+.post-preview-date {
+  color: var(--md-char-color);
+  font-size: 0.75rem;
+}
+.post-preview-excerpt {
+  font-size: 1rem;
+}
+.post-date-author {
+  color: var(--md-char-color);
+  font-size: 0.75rem;
+}
 
-figure.highlight{
-    border: 1px solid var(--md-char-color);
-    padding: 1rem;
+figure.highlight {
+  border: 1px solid var(--md-char-color);
+  padding: 1rem;
 }
-a.clicable,a.clicable:visited, a.clicable:active,a.clicable:link{
+a.clicable,
+a.clicable:visited,
+a.clicable:active,
+a.clicable:link {
   color: inherit;
   text-decoration: inherit;
   /* cursor: pointer; */
 }
 
 button.theme-toggle {
-    z-index: 10;
-    position: fixed;
-    top: 0.25rem;
-    right: 1rem;
-    margin: auto;
-    width: 2rem;
-    border: none;
-    height: 2rem;
-    padding: 0;
-    margin: 0;
-    line-height: 1rem;
-    background-color: rgba(237, 237, 237, 0.4);
-    border: 1px solid lightgray;
-    border-radius: 50%;
-    /*background-color:trasparent;*/
-
-  }
-  
+  z-index: 10;
+  position: fixed;
+  top: 0.25rem;
+  right: 1rem;
+  margin: auto;
+  width: 2rem;
+  border: none;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1rem;
+  background-color: rgba(237, 237, 237, 0.4);
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  /*background-color:trasparent;*/
+}
 
 button.theme-toggle::before {
-    content: "☀"; /*🌕☀🌞🌟⭐*/
-    font-family: 'Noto Emoji', sans-serif;
-    font-size: 1.70rem;
-    top: 50%;
-    left: 50%;
-position: absolute;
-    transform: translate(-50%, -50%);
-    color: var(--light-theme-fg-lvl1);
+  content: "☀"; /*🌕☀🌞🌟⭐*/
+  font-family: "Noto Emoji", sans-serif;
+  font-size: 1.7rem;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--light-theme-fg-lvl1);
+}
 
-  
-  }
-  
-  button.darkTheme::before {
+button.darkTheme::before {
+  content: "🌙"; /*🌚🌛🌜🌘🌑🌒🌙*/
+  font-family: "Noto Emoji", sans-serif;
+  font-size: 1.7rem;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--dark-theme-fg-lvl1);
+}
+button.cool-btn {
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid var(--md-char-color);
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: 0.5rem auto;
+  text-align: center;
+  align-items: center;
+  background-color: var(--light-theme-bg-lvl1);
+}
+.darkTheme button.cool-btn {
+  border: 1px solid var(--md-char-color);
+  background-color: var(--dark-theme-bg-lvl1);
+  color: var(--dark-theme-fg-lvl1);
+}
+img.qr {
+  max-width: 400px;
+  margin: 2rem auto;
+}
 
-    content: "🌙"; /*🌚🌛🌜🌘🌑🌒🌙*/
-    font-family: 'Noto Emoji', sans-serif;
-    font-size: 1.70rem;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    color: var(--dark-theme-fg-lvl1);
+.darkTheme img.qr {
+  filter: invert();
+}
 
-  
-  }
-  button.cool-btn{
-    font-family: 'Courier New', Courier, monospace;
-    border: 1px solid var(--md-char-color);
-    padding: 0.5rem;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    margin: 0.5rem auto;
-    text-align: center;
-    align-items: center;
-    background-color: var(--light-theme-bg-lvl1);
-  }
-  .darkTheme button.cool-btn{
-    border: 1px solid var(--md-char-color);
-    background-color: var(--dark-theme-bg-lvl1);
-    color: var(--dark-theme-fg-lvl1);
-  }
-  img.qr{
-    max-width: 400px;
-    margin: 2rem auto;
-  }
-  
-  .darkTheme img.qr{
-    filter: invert();
-  }
+nav.nav-left {
+  float: left;
+}
+nav.nav-left a {
+  border-style: none solid none none;
+}
+nav.nav-right {
+  float: right;
+  margin-right: 3rem;
+}
+nav.nav-right a {
+  border-style: none none none solid;
+}
+div.nav-combo {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid var(--md-char-color);
+  position: sticky;
+  top: 0;
+  background-color: var(--light-theme-bg-lvl1);
+}
+.darkTheme div.nav-combo {
+  background-color: var(--dark-theme-bg-lvl1);
+}

@@ -23,8 +23,8 @@ author: MalaLetra
   document.addEventListener("click", doubletap);
 </script>
 <div class="post-date-author">
-  {{ page.date | date: "%Y-%m-%d" }} - Escrito por: MalaLetra - {{content |
-  number_of_words | divided_by:180 }} mins
+  {{ page.date | date_to_long_string }} - Escrito por: MalaLetra - {{
+  page.content | number_of_words | divided_by:180 }} mins
 </div>
 <!-- <div class="post-date-author">
   {{content | number_of_words | divided_by:180 }} mins

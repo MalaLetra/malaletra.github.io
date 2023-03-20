@@ -1,0 +1,49 @@
+---
+layout: post
+title: "2: Espía"
+date: "2023-03-19"
+---
+
+Ish'ka alzó su mano hacia el hueco en la pared para comprobar si podría pasar o no. Los forasteros habían traído consigo muros invisibles que llamaban "cristal", una magia que les protegía sin ocultar al enemigo. Por suerte era igual que todas las otras magias, un conjunto de reglas, y a ella se le daba muy bien aprender reglas. Por lo que había podido averiguar el "cristal" no se podía mover fácilmente y una vez levantado el hechizo no desaparecía o cambiaba.
+
+Su mano dio con el frío tacto del muro. La joven siguió el borde con la mano hasta llegar a una barra de metal, tras ella, el hechizo acababa.
+
+-- Perfecto -- susurró pasando la cabeza por el hueco, mientras sostenía sus trenzas con una mano.
+
+La luz del interior iluminaba toda la habitación. Rash'ek le había soplado ese lugar. "Donde los extranjeros se reúnen para tomar decisiones y hablar" había dicho, como si hiciera falta un lugar para eso. Los Ratii, su tribu, no tenían ningún lugar parecido. Las decisiones se tomaban donde hubiera que tomarlas y, si eran muy importantes, se proclamaba la cena del pueblo. En la cena todos se congregaban con alimentos bebida y música, normalmente las decisiones se tomaban en algún momento entre el postre y los bailes.
+
+El lugar estaba vacío, tenían mesas, pinturas en las paredes, pieles muy finas en los suelos... pero ni una persona dentro. Ish'ka se apartó del hueco y contempló el pueblo de los extranjeros desde el tejado. Llamarlo pueblo no parecía hacerle justicia. En su pueblo había unas cien personas, todos familia, amigos, mentores y aprendices de algo o alguien, pero solo de camino a ese lugar había pasado por encima de gentíos más grandes, un mar de personas que caminaban en filas como las ovejas en el cerco. Esto era un pueblo de pueblos, el más grande de todos los que había visto.
+
+Una voz interrumpió sus pensamientos, alguien habían entrado en la habitación. Hablaba solo en la lengua de los extranjeros, gritando mientras se sostenía la cabeza con un ladrillo negro diminuto. Varios extranjeros hacían eso, quizás su cuello se había debilitado por construir tantos edificios y "cristal" y ahora necesitaban aguantarse la cabeza para que no les caiga sobre los hombros. Ish'ka se asomó de nuevo, mirando al hombre desde arriba. Daba vueltas por la habitación, alzando más y más la voz a la vez que gesticulaba con su mano libre. Su misión había comenzado, el futuro de su pueblo dependía de que consiguiera información sobre la conquista.
+
+La joven entendía gran parte del lenguaje extranjero, pero necesitaba oírlo claramente. Sacó un gancho de la pequeña bolsa a su espalda y lo incrustó con cuidado en la grieta de la pared a su lado. Al contrarió que los Ratii o las tribus vecinas, este nuevo pueblo nunca miraba a los cielos. Sus edificios eran muy altos y tapaban la luz constantemente de todas maneras. Quizás por eso se les había dañado el cuello, debían mirar por encima de los edificios hasta que no pudieron soportarlo más y ahora han abandonado la costumbre. Ish'ka hizo una nota mental de aquello para mencionárselo a Rash'ek a la vuelta.
+
+Colocó la cuerda al rededor de su cintura con un nudo corredizo y bajó con cuidado, primero la cabeza y luego el cuerpo. El hombre vestía la ropa uniformada de su gente, un manto negro en dos partes: tronco superior e inferior. Junto con él un lazo ceremonial negro al cuello que, por como tiraba de él, estaba más apretado de lo que le gustaría.
+
+Ish'ka siguió bajando liberando la cuerda con sus manos poco a poco, hasta entender lo que decía.
+
+--- ¡... No, John, no podemos esperar otro mes!. ¡Los proveedores se nos echarán encima!-- un atento silencio le siguió mientras la joven le seguía con la mirada desde lo alto.
+
+El hombre se giró tirando de nuevo del lazo negro al cuello, esta vez abriendo mucho su nudo y pasándolo por la cabeza para dejarlo sobre la mesa. Se sentó pesadamente en la silla paseando la vista por los papeles acumulados sobre ella.
+
+-- Vale, vale, y... ¿Qué? ¿Qué quieres que haga yo? tenemos que llegar a la reserva en una semana. -- dijo pasándose la mano por la cara hasta llegar a las sienes para masajeárselas con movimientos circulares.
+
+Los extranjeros parecían comunicarse con su dios por rezos, los había visto hacerlo en medio de la calle pero este es el primero al que oía tratar a su dios de manera tan vehemente.
+
+-- ¿El martes? Como pronto podemos empezar el miércoles, pero necesito las taladradoras preparadas mañana.
+
+"Taladradoras" podría ser otro de sus hechizos, pero no había manera de saberlo ahora. Lo importante eran los días, algo se prepararía mañana y empezaría el miércoles.
+
+Si Rash'ek estaba en lo correcto los extranjeros planeaban conquistar toda la zona hasta los prados tras la montaña. Ish'ka subía por la cuerda con cuidado y en absoluto silencio, como había hecho cientos de veces en su vida. Al llegar al techo de nuevo repasó los datos mentalmente. Un caballo normal tardaría día y medio en llegar a su pueblo, aun que los caballos de metal que utilizan los extranjeros sean más rápidos , necesitarán medio día al menos. Si volvía esta noche le daría tiempo a avisarles.
+
+-- Pues si... -- el hombre hablo de nuevo, más animado-- Si los traéis de Nuevo París podemos empezar mañana.
+
+El corazón de Ish'kar se aceleró como un caballo desbocado ante el acero caliente. ¿Mañana? Era un locura, nunca llegarían en menos de una noche. Ella tampoco podría. ¿Así obraba su dios? ¿Hablando y negociando? Necesitaba enviar el mensaje rápido, un aviso.
+
+El hombre se levantó sosteniendo aún el ladrillo en su cabeza y sonriendo. Encorvó su columna estirándose hacía atrás. De un salto Ish'ka se acurrucó en el suelo, no la vería desde allí, pero más valía prevenir. Los pasos sonaron por la habitación hasta perderse por el pasillo.
+
+La joven sacó de su bolsa una piedra blanquecina, y un trozo de carbón envuelto en una bolsa de cuero. Solo podría escribir una palabra para avisarles, varias opciones rondaron su cabeza: "Peligro", "Mañana", "Vienen". Pero todas parecían carecer de significado ahora, si los extranjeros llegaban mañana el mensaje debía ser claro. Tomó el carboncillo y la piedra para escribir en ella "Corred", al acabar envolvió la piedra en la bolsa de cuero. Con el cuchillo utilitario de su cintura grabó el símbolo de hogar en el cuero.
+
+El símbolo comenzó a iluminarse, a palpitar y brillar. Ish'ka se levanto y lanzó la bolsa al cielo con todas sus fuerzas. A medio camino la bolsa fue impulsada por un golpe invisible y salió volando en dirección a su hogar por encima de los edificios. El mensaje llegaría en unas pocas horas, si tenían suerte, con el tiempo justo para que todo el pueblo se movilizara hacia las afueras.
+
+Ahora la joven solo tenía dos opciones, huir lejos o ralentizar la salida lo que pudiera. Se echó la bolsa al hombro de nuevo y bajó con la cuerda por el hueco del cristal para adentrarse en el edificio.
