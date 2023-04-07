@@ -28,7 +28,7 @@ El agarre se rompió.
 
 Sienna barajaba como la cristalización necesitaba un poco de práctica para estar pulida. Al mismo tiempo, calculando con unos pocos números cuanto tardarían en expulsarla una vez la pillaran con los huesos rotos fuera de su habitación. En la caída todo era silencioso, o al menos lo parecía. En cuando pasó al lado del segundo agarre pensó en que debería haberse agarrado, sin duda debería haberlo hecho. La habrían expulsado, pero dolería menos la caída, incluso si este también cedía.
 
-Algo la recogió de la caída, blando pero resistente, la hizo rodar como una pelota y la dejó revolcarse grácilmente sobre las ramas, hojas y lo que olía como excrementos del bosque. Cuando Sienna pudo volver a enfocar con sus ojos vio sobre ella la cara preocupada de Carmine, con el pelo negro cayendo sobre ella como una extensión de la noche. La ayudó a levantarse tirando de ella y pasó su brazo por encima del hombro cargándola.
+Algo la recogió de la caída, blando pero resistente, la hizo rodar como una pelota y la dejó revolcarse gracilmente sobre las ramas, hojas y lo que olía como excrementos del bosque. Cuando Sienna pudo volver a enfocar con sus ojos vio sobre ella la cara preocupada de Carmine, con el pelo negro cayendo sobre ella como una extensión de la noche. La ayudó a levantarse tirando de ella y pasó su brazo por encima del hombro cargándola.
 
 -- Por todos los santos, casi te matas -- gritó en un susurro, era un poder que pocas personas tenían.
 
@@ -40,7 +40,7 @@ Carmine la dejó apoyada contra un árbol, agarró suavemente su cabeza moviénd
 
 -- Solo quiero asegurarme, ser resistentes no es lo mismo que ser invencibles --respondió buscando entre el pelo rojizo de la joven-- No quiero pensar que habría pasado si no te hubiera atrapado.
 
-"La red, eso fue lo que noté" pensó Sienna. ¿Habría recogido la sangre de vuelta para que no las pillen? Sus agarres se liquidificarían de nuevo al perder la concentración, pero la sangre necesaria para la red llamará la atención en la hierba verde del colegio.
+"La red, eso fue lo que noté" pensó Sienna. ¿Habría recogido la sangre de vuelta para que no las pillen? Sus agarres se fluidificarían de nuevo al perder la concentración, pero la sangre necesaria para la red llamará la atención en la hierba verde del colegio.
 
 -- Carmine has recogido...
 
