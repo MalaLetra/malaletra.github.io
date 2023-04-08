@@ -25,10 +25,11 @@ author: MalaLetra
 
   function share() {
     let data = {
-      "title": "MalaLetra",
-      "text": document.url,
+      //"title": "MalaLetra",
+      //"text": document.url,
       "url": document.url,
     }
+    console.log(document.url);
     navigator.share(data)
       .then(() =>
         resultPara.textContent = 'MDN shared successfully'
