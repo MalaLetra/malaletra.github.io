@@ -27,9 +27,8 @@ author: MalaLetra
     let data = {
       //"title": "MalaLetra",
       //"text": document.url,
-      "url": document.url,
+      "url": document.URL,
     }
-    console.log(document.url);
     navigator.share(data)
       .then(() =>
         resultPara.textContent = 'MDN shared successfully'
