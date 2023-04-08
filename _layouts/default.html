@@ -1,88 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="content-language" content="es-ES" />
-    <meta
-      name="description"
-      content="Un romance sobre dos de las mujeres más poderosas del mundo."
-    />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <link rel="manifest" href="/manifest.json" />
-    <script src="/sw.js"></script>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/css/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/css/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/css/icons/favicon-16x16.png"
-    />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/notes.css" />
-    <link rel="stylesheet" href="/css/style.css" />
 
-    <script>
-      function codeAddress() {
-        let position = window.localStorage.getItem("scrollpos") | 0;
-        let darktoggle = window.localStorage.getItem("darktoggle");
-        window.scrollTo(0, Number(position));
-        if (darktoggle === "true") {
-          let payBtn = document.getElementById("theme");
-          payBtn.classList.toggle("darkTheme");
-          document.body.classList.toggle("darkTheme");
-        }
-      }
-      function savePos() {
-        let position = window.pageYOffset;
-        window.localStorage.setItem("scrollpos", position);
-      }
-      window.onload = codeAddress;
-      function changeBg(elem) {
-        console.log("aaa");
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="content-language" content="es-ES" />
+  <meta name="description" content="Web con todos los textos y historias de práctica que escribo." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="/manifest.json" />
+  <script src="/sw.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/css/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/css/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/css/icons/favicon-16x16.png" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/css/notes.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <script>
+    function codeAddress() {
+      let position = window.localStorage.getItem("scrollpos") | 0;
+      let darktoggle = window.localStorage.getItem("darktoggle");
+      window.scrollTo(0, Number(position));
+      if (darktoggle === "true") {
         let payBtn = document.getElementById("theme");
-        var element = document.body;
-        let isToggled = elem.classList.toggle("darkTheme");
-        element.classList.toggle("darkTheme");
-        window.localStorage.setItem("darktoggle", isToggled);
+        payBtn.classList.toggle("darkTheme");
+        document.body.classList.toggle("darkTheme");
       }
-    </script>
-  </head>
-  <body>
-    <div class="nav-combo">
-      <nav class="nav-left">
-        <a href="/">Inicio</a><a href="/post/">Post</a>
-      </nav>
-      <nav class="nav-right"><a href="/feed.xml">RSS</a></nav>
-    </div>
-    <button
-      id="theme"
-      class="theme-toggle"
-      href="#"
-      onclick="changeBg(this)"
-    ></button>
-    <h1>{{ page.title }}</h1>
-    <section>{{ content }}</section>
-    <footer>
-      <hr />
-      <p>
-        <small>
-          &copy;2023
-          <a href="https://twitter.com/MalaLetraFics">@MalaLetraFics</a> Creado
-          con mucha frustración, probablemente.
-        </small>
-      </p>
-    </footer>
-  </body>
+    }
+    function savePos() {
+      let position = window.pageYOffset;
+      window.localStorage.setItem("scrollpos", position);
+    }
+    window.onload = codeAddress;
+    function changeBg(elem) {
+      console.log("aaa");
+      let payBtn = document.getElementById("theme");
+      var element = document.body;
+      let isToggled = elem.classList.toggle("darkTheme");
+      element.classList.toggle("darkTheme");
+      window.localStorage.setItem("darktoggle", isToggled);
+    }
+  </script>
+</head>
+
+<body>
+  <div class="nav-combo">
+    <nav class="nav-left">
+      <a href="/">Inicio</a><a href="/post/">Post</a>
+    </nav>
+    <nav class="nav-right"><a href="/feed.xml">RSS</a></nav>
+  </div>
+  <button id="theme" class="theme-toggle" href="#" onclick="changeBg(this)"></button>
+  <h1>{{ page.title }}</h1>
+  <section>{{ content }}</section>
+  <footer>
+    <hr />
+    <p>
+      <small>
+        &copy;2023
+        <a href="https://twitter.com/MalaLetraFics">@MalaLetraFics</a> Creado
+        con mucha frustración, probablemente.
+      </small>
+    </p>
+  </footer>
+</body>
+
 </html>

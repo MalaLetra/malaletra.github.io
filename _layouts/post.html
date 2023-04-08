@@ -21,6 +21,23 @@ author: MalaLetra
     mylatesttap = new Date().getTime();
   }
   document.addEventListener("click", doubletap);
+
+
+  function share() {
+    let data = {
+      "title": "MalaLetra",
+      "text": "Web con todos los textos y historias de práctica que escribo.",
+      "url": document.url,
+    }
+    navigator.share(data)
+      .then(() =>
+        resultPara.textContent = 'MDN shared successfully'
+      )
+      .catch((e) =>
+        resultPara.textContent = 'Error: ' + e
+      );
+
+  }
 </script>
 <div class="post-date-author">
   {{ page.date | date_to_long_string }} - Escrito por: MalaLetra - {{
@@ -31,3 +48,9 @@ author: MalaLetra
 </div> -->
 <br />
 {{ content }}
+<div style="margin:auto; margin-top: 2rem;width:fit-content;">
+  <button class="icon-button" onclick="share()"><img src="/css/font_icons/share.svg" />
+    <span>Compartir</span>
+  </button>
+
+</div>
